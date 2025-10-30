@@ -1,0 +1,16 @@
+name: EconomyLite
+version: '1.0.0'
+main: nl.dutchcoding.economylite.EconomyLite
+api-version: '1.16'
+author: Dutchwilco
+website: dutchcoding.nl
+description: A lightweight economy plugin
+
+commands:
+  balance:
+    description: Check your current balance
+    usage: /balance
+    aliases: [bal, money]
+  pay:
+    description: Pay another player
+    usage: /pay <player> <amount>

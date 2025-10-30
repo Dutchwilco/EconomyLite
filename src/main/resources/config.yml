@@ -1,0 +1,12 @@
+starting-balance: 1000.0
+
+currency-symbol: "$"
+
+messages:
+  balance: "&aYour balance: &e{symbol}{balance}"
+  pay-success: "&aYou paid &e{symbol}{amount} &ato &e{player}"
+  pay-received: "&aYou received &e{symbol}{amount} &afrom &e{player}"
+  insufficient-funds: "&cYou don't have enough money!"
+  player-not-found: "&cPlayer not found!"
+  invalid-amount: "&cPlease specify a valid amount!"
+  cannot-pay-self: "&cYou cannot pay yourself!"
